@@ -41,11 +41,30 @@ Full Subtractor:
 
 VERILOG CODE:
 
-----Type Verilog Code
+Logic gates:
+```h
+module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+input a,b;  
+output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+and(andgate,a,b);
+or(orgate,a,b);
+xor(xorgate,a,b);
+nand(nandgate,a,b); 
+nor(norgate,a,b);
+xnor(xnorgate,a,b);
+not(notgate,a);
+endmodule
+```
+LOGIC GATE:
+![318524823-3d945dc1-33cc-4dab-9289-71703774a227](https://github.com/Devikavijaya/VLSI-LAB-EXP-1/assets/164987794/f62213d7-9115-4220-8075-132948bcfe21)
+
+
+
+
 
 OUTPUT:
 
 -----Place a Waveform Generated from Xilinx ISE
 
 RESULT:
-
+Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Xilinx ISE.
