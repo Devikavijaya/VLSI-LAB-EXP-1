@@ -24,34 +24,9 @@ STEP:12  Load the Bit file into the SPARTAN 6 FPGA.
 ```
 # Logic Diagram :
 
-# Logic Gates:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
-
-Half Adder:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
-
-# Full adder:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
-
-# Half Subtractor:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
-
-# Full Subtractor:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
-
-# 8 Bit Ripple Carry Adder
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
-
-
-# VERILOG CODE:
-
 # LOGIC GATES:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/ec15e34b-144c-4be5-b8a8-144f0d1b367f)
+# CODE:
 ~~~
       module gate(a,b,w1,w2,w3,w4,w5,w6,w7);
       input a,b;
@@ -71,6 +46,8 @@ Half Adder:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/160600794/21178b59-ee9c-492c-aff9-56895d38b585)
 
 # FULL ADDER:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/3b18fd68-eacc-4aec-89d2-4a5a3b3970e7)
+# CODE:
 ~~~
        module fulladder(a,b,cin,sum,carry);
        input a,b,cin;
@@ -88,7 +65,9 @@ Half Adder:
 
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/160600794/7b2568c8-925a-4a56-9ef5-9fd329f0099d)
 
-# HALF ADDER:
+# HALF ADDER
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/c0c7db1e-81f4-4ab8-8cfd-c6d325288e19)
+# CODE:
 ~~~
         module hs(a,b,difference,borrow);
        input a,b;
@@ -105,9 +84,10 @@ Half Adder:
 
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/160600794/6517181d-cdbb-450a-b7e2-dbc8be3f3aa6)
 
-
-
 # HALF SUBTRACTOR:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/79f4adc8-5a18-44ce-ac13-f2ed3a954de9)
+
+# CODE:
 ~~~
        module hs(a,b,difference,borrow);
        input a,b;
@@ -123,8 +103,9 @@ Half Adder:
 
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/160600794/74f7e9f5-64b1-40b2-bd9c-dffdb9d02661)
 
-
 # FULL SUBTRACTOR:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/6c2366cd-2e78-44f5-90e6-f9c99d1ced54)
+# CODE:
 ~~~
     module fs(a,b,c,diff,borrow);
     input a,b,c;
@@ -144,7 +125,10 @@ Half Adder:
 
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/160600794/ba6633a8-7b90-4aa0-91df-434b825bad5c)
 
-8 RIPPLE CARRY ADDER:
+# 8 RIPPLE CARRY ADDER:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-1/assets/164987794/67f49edb-d146-4162-8f82-b92689724425)
+
+# CODE:
 ~~~
        module fa(a,b,cin,sum,carry);
        input a,b,cin;
